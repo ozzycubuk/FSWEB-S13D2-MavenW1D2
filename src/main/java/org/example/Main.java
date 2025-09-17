@@ -47,6 +47,8 @@ public class Main {
                 int checkSayi = Character.getNumericValue(verilenSayi[i]);;
                 son = son +" " + sayilar[checkSayi];
             }
+        }else{
+            son = "Invalid Value";
         }
         son = son.trim();
         System.out.println(son);
